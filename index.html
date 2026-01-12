@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora de Gorjeta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 20px;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 15px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .resultado {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .erro {
+      color: red;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Calculadora de Gorjeta</h1>
+
+    <label for="valorConta">Valor da conta</label>
+    <input 
+      type="text" 
+      id="valorConta" 
+      placeholder="Ex: 100.50"
+    />
+
+    <label for="gorjeta">Gorjeta (%)</label>
+    <input 
+      type="text" 
+      id="gorjeta" 
+      placeholder="Ex: 10"
+    />
+
+    <button id="calcular">Calcular</button>
+
+    <div class="resultado">
+      <p>Gorjeta: <span id="valorGorjeta">-</span></p>
+      <p>Total: <span id="valorTotal">-</span></p>
+    </div>
+
+  </div>
+
+</body>
+  <script type="module" src="app.js"></script>
+</html>
