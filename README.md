@@ -1,4 +1,4 @@
-# To-Do List — Projeto de QA
+# Calculadora de Gorjeta — Projeto de QA
 
 ## 📌 Descrição
 Aplicação simples de calculadora de gorjeta, desenvolvida em JavaScript puro, com foco em práticas de **Quality Assurance (QA)**, validação de dados, testes manuais e testes de borda.
