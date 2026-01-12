@@ -32,4 +32,7 @@ Uncaught TypeError: Cannot set properties of null (setting 'innerText')
 - Média — impede o funcionamento da funcionalidade principal.
 
 **Status**
-Aberto
+Resolvido
+
+**Correção Aplicada:**
+- Ajuste no HTML incluindo o elemento mensagemErro
