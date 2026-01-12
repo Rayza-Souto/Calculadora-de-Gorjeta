@@ -20,3 +20,13 @@
 - Console exibe erro
 Uncaught TypeError: Cannot set properties of null (setting 'innerText')
 - Nenhum valor é exibido na tela
+
+**Status:** Passou
+
+**Evidencia da correção:**
+- Elemento mensagemErro adicionado ao HTML
+
+**Resultado após correção:**
+- Clicar no botão Calcular executa o cálculo corretamente
+- Nenhum erro é exibido no console
+- Valor e gorjeta exibidos corretamente
